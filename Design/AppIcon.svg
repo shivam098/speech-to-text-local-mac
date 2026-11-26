@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256">
+  <title>Speech To Text Local: a waveform becoming lines of text</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#479eeb"/><stop offset=".48" stop-color="#286bc7"/><stop offset="1" stop-color="#203d89"/>
+    </linearGradient>
+    <linearGradient id="bubble" x2=".3" y2="1">
+      <stop stop-color="#fff"/><stop offset="1" stop-color="#d8efff"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="13" width="228" height="228" rx="53" fill="url(#tile)"/>
+  <rect x="15.5" y="14.5" width="225" height="225" rx="51.5" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="3"/>
+  <path d="M80 61h95q33 0 33 33v49q0 32-33 32h-54l-34 25q-7 5-7-4v-21q-32 0-32-32V94q0-33 32-33z" transform="translate(0 5)" fill="#173568" opacity=".35"/>
+  <path d="M80 61h95q33 0 33 33v49q0 32-33 32h-54l-34 25q-7 5-7-4v-21q-32 0-32-32V94q0-33 32-33z" fill="url(#bubble)"/>
+  <g fill="#2056a9">
+    <rect x="68" y="106" width="10" height="25" rx="5"/>
+    <rect x="84" y="89" width="11" height="59" rx="5.5"/>
+    <rect x="101" y="99" width="11" height="39" rx="5.5"/>
+    <rect x="118" y="108" width="10" height="21" rx="5"/>
+  </g>
+  <rect x="140" y="104" width="47" height="10" rx="5" fill="#226ba6"/>
+  <rect x="140" y="124" width="32" height="10" rx="5" fill="#23808f"/>
+</svg>
